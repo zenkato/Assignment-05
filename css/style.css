@@ -16,6 +16,10 @@ img{
     height:auto;
 }
 
+h2 {
+    letter-spacing: 0.2em;
+}
+
 /* .container {
     margin: 0 auto;
     padding: 0 2rem;
@@ -57,3 +61,29 @@ nav li a {
 nav li a:hover {
     color: #181819;
 }
+
+/* footer */
+footer {
+    background-color: #ECF7FA;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #6b90db;
+    color: #fff;
+}
+
+tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.col p:last-child{
+    font-size: 80%;
+    margin-bottom: 1.5rem;
+}
+

@@ -59,7 +59,7 @@ header {
     background-color: #f8f9fa;
     display: flex;
     justify-content:space-between;
-    padding: 0 6rem;
+    padding: 0 8rem;
     align-items: center;
 }
 
@@ -94,6 +94,12 @@ nav li a:hover {
 }
 
 /* 診療案内 */
+.row1 {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 5rem;
+    flex-wrap: wrap;
+}
 .detail {
     text-align: center;
 }
